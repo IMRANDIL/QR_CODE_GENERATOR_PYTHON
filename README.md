@@ -9,6 +9,8 @@ This Python script generates QR codes from input data. It uses the `qrcode` libr
 
 ## Usage
 
+![imrandil_github](https://github.com/IMRANDIL/QR_CODE_GENERATOR_PYTHON/assets/71559091/b88960cd-4cb8-4aba-9e84-193efbea8a67)
+
 1. Clone this repository to your local machine.
 2. Navigate to the directory containing the `customized_generate_qr.py` file.
 3. Run the script using `python customized_generate_qr.py`.
