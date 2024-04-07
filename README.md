@@ -1,6 +1,6 @@
 # QR Code Generator
 
-This is a simple Python script to generate a QR code that directs to my GitHub profile.
+This Python script generates QR codes from input data. It uses the `qrcode` library to create the QR code images and the `Pillow` library to handle image processing.
 
 ## Installation
 
@@ -10,13 +10,20 @@ This is a simple Python script to generate a QR code that directs to my GitHub p
 ## Usage
 
 1. Clone this repository to your local machine.
-2. Navigate to the directory containing the `generate_qrcode.py` file.
-3. Run the script using `python generate_qrcode.py`.
-4. After running the script, a QR code image named `imrandil_github.png` will be generated in the same directory.
+2. Navigate to the directory containing the `customized_generate_qr.py` file.
+3. Run the script using `python customized_generate_qr.py`.
+4. Follow the prompts to enter the data to encode, filename to save the QR code, fill color, background color, box size, and border size.
+5. After running the script, the specified QR code image will be generated in the same directory.
 
 ## Customization
 
-You can customize the QR code by changing the URL in the `generateQR` function. Simply replace `"https://github.com/IMRANDIL"` with the desired URL.
+You can customize the QR code by modifying the input data and parameters passed to the `generateQR` function in the script. Here are the customizable parameters:
+- Data to encode: This is the text or URL you want the QR code to represent.
+- Filename: Name of the file to save the QR code image. Default is `qr_code.png`.
+- Fill color: Color of the QR code modules (black by default).
+- Background color: Color of the QR code background (white by default).
+- Box size: Size of each QR code module (20 by default).
+- Border size: Size of the QR code border (4 by default).
 
 ## Dependencies
 
